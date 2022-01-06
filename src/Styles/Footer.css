@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  height: 598px;
+  background-color: #ECEBFF99;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+
+.titles {
+  color: black;
+  font-size: 18px;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 16px;
+  color: #9893A3;
+  line-height: 26px;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -6,6 +6,10 @@ import Sponsors from './component/Sponsors';
 import Details from './component/Details';
 import Creative from './component/Creative';
 import Professionals from './component/Professionals';
+import Footer from './component/Footer';
+
+
+
 
 
 function App() {
@@ -17,6 +21,8 @@ function App() {
         <Details />
         <Creative />
         <Professionals />
+        <Footer />
+      
     </div>
   );
 }

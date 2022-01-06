@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/fusely logo.png';
 import '../Styles/Navbar.css';
 
 
@@ -7,7 +8,7 @@ function Navbar() {
         <div>
             <header className='navbar'>
 
-                <div className='logo'><a>Logo</a></div>
+                <img className='logo' src={logo}></img>
             <div className='links'>
             <a>Home</a>
             <a>Features</a>
