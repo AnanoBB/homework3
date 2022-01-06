@@ -1,0 +1,38 @@
+@import '../Variables/variables.scss';
+
+.welcome{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 88px;
+    width: 489px;
+    height: 264px;
+    color: $titleFontColor;
+}
+
+.textContent p{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    color: $paragraphColor;
+    width: 489px;
+    height: 102px;
+}
+
+.textContent {
+    width: 489px;
+    height: 477px;
+}
+
+.textContent button {
+    background-color: $mainColor;
+    color: white;
+    width: 140px;
+    height: 51px;
+    border: none;
+    border-radius: 2px;
+
+}

@@ -1,0 +1,31 @@
+.details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.textContent {
+  width: 400px;
+  height: 128px;
+}
+
+.title1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #2F2E41;
+}
+
+.textContent p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #9893A3;
+}
+/*# sourceMappingURL=Details.css.map */

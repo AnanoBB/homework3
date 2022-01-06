@@ -1,0 +1,44 @@
+@import '../Variables/variables.scss';
+
+.navbar {
+    height: 51px;
+    //font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+  
+}
+
+.links {
+    width: 100px;
+    display: flex;
+    gap:30px;
+}
+
+.links a{
+    font-size: $defaultFontSize;
+}
+
+.btns button{
+    font-size: $defaultFontSize;
+    border-radius: 2px;
+}
+
+
+.btn2{
+    width: 150px;
+    height: 51px;
+    margin-left: 10px;
+    background-color: $mainColor;
+    border: none;
+    color: white;
+}
+
+.btn1{
+    width:102px;
+    height:51px;
+    background-color: $mainColor;
+    border: none;
+    color: white;
+}

@@ -1,0 +1,41 @@
+.welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.title {
+  font-size: 86px;
+  font-weight: 700;
+  line-height: 88px;
+  width: 489px;
+  height: 264px;
+  color: #2F2E41;
+}
+
+.textContent p {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #9893A3;
+  width: 489px;
+  height: 102px;
+}
+
+.textContent {
+  width: 489px;
+  height: 477px;
+}
+
+.textContent button {
+  background-color: #6C63FF;
+  color: white;
+  width: 140px;
+  height: 51px;
+  border: none;
+  border-radius: 2px;
+}
+/*# sourceMappingURL=Welcome.css.map */
