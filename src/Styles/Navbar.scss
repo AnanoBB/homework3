@@ -2,7 +2,6 @@
 
 .navbar {
     height: 51px;
-    //font-size: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -14,16 +13,34 @@
     width: 100px;
     display: flex;
     gap:30px;
+    cursor: pointer;
 }
 
 .links a{
     font-size: $defaultFontSize;
+    
 }
+
+
 
 .btns button{
     font-size: $defaultFontSize;
     border-radius: 2px;
 }
+
+.btn2:hover{
+    color:$mainColor;
+    background-color: white;
+    
+}
+
+.btn1:hover{
+    color:$mainColor;
+    background-color: white;
+    
+}
+
+
 
 
 .btn2{
@@ -33,6 +50,7 @@
     background-color: $mainColor;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .btn1{
@@ -41,4 +59,5 @@
     background-color: $mainColor;
     border: none;
     color: white;
+    cursor: pointer;
 }
